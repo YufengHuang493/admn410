@@ -1,0 +1,75 @@
+html,body{ margin: 0;padding: 0;}
+.center{text-align: center}
+.nav{ height: 470px; background-image: url('../images/index/inside_master-green.jpg');background-size: 100% 1170px; }
+.body_bg{ height: 1170px; background-image: url('../images/index/green-bg.jpg');background-size: 100% 470px; }
+.menu  { text-align: center; margin-top: 20px; list-style:none;line-height: 90px; }
+.menu  li { display:inline-block; font-size:18px; text-transform:uppercase;  padding-right:2px; }
+.menu  li a { color:white; text-decoration:none; font-weight:bold;padding: 6px 9px;  }
+.menu  li a:hover { text-decoration:none; background:#8a344c;  }
+.employee {
+    list-style:none;
+}
+.employee li{
+    display:inline-block;
+    margin: 50px;
+}
+footer{ background: url('../images/index/purple-bg.jpg') repeat; height: 100px;color: white; padding: 0 10%;}
+.footer-col-1 {
+    width: 50%;
+    float: left;
+    text-align: center;
+    margin-top: 40px;
+}
+.footer-col-1 a{color: white;}
+.nav_block{position: absolute;width: 500px;height:200px;right: 40px;top: 150px;background: rgba(66,66,66,0.5);padding: 20px;color: white }
+.product_list{display: flex;justify-content: center;flex-wrap: wrap;}
+.productDiv{ margin: 30px;border:2px solid #ccc; box-shadow: 0 2px 5px 0 rgba(226,226,226,0.70);width: 40%;height: 440px;padding: 20px;text-align: center;}
+.productDiv_title{
+    text-align: center;
+    padding: 10px 0;
+}
+.policie_div{
+    display: inline-block;
+    width: 60%;
+    margin: 50px;
+    background: white;
+    border:2px solid #ccc; 
+    padding: 20px;
+}
+.twtter{
+    width: 32px;
+    height: 32px;
+    margin-right: 150px;
+    float: right;
+    background-image: url('../images/contact/Twitter.png')
+}
+.twtter:hover{
+    background-image: url('../images/contact/Twitter1.png')
+}
+.facebook{
+    width: 32px;
+    height: 32px;
+    margin-right: 150px;
+    float: right;
+    background-image: url('../images/contact/facebook.png')
+}
+.facebook:hover{
+    background-image: url('../images/contact/facebook1.png')
+}
+.go_supplies_group{
+    display: flex;
+    justify-content: center;
+}
+.go_supplies_group div{
+    margin: 40px;
+}
+.supplies_btn{
+    text-align: center;
+    width: 300px;
+    margin: 0 auto;
+}
+.supplies_btn a{
+    color: white;
+    line-height: 40px;
+    cursor: pointer;
+}
